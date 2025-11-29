@@ -22,11 +22,9 @@ class MascotaAdapter(private var items: List<Mascota>) :
         val item = items[position]
         val context = holder.itemView.context
 
-        // Nombre y rating
         holder.binding.tvNombre.text = item.nombre
         holder.binding.tvRait.text = context.getString(R.string.raits_mascota_placeholder, item.rating)
 
-        // Imagen desde Supabase o respaldo local
         if (!item.imagenUrl.isNullOrBlank()) {
             Glide.with(context)
                 .load(item.imagenUrl)

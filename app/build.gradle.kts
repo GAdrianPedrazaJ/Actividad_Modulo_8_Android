@@ -84,6 +84,9 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
 
+    // ✅ Soporte para fechas con kotlinx-datetime
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
+
     // ✅ Glide para imágenes desde URL
     implementation("com.github.bumptech.glide:glide:4.16.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
