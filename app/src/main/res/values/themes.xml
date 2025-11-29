@@ -1,0 +1,4 @@
+<!-- values/themes.xml -->
+<resources>
+    <style name="Theme.Petagram" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>

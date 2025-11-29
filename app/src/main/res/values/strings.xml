@@ -1,0 +1,36 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="contacto">Contacto</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviar_comentario">Enviar Comentario</string>
+
+    <!-- Nuevos para item_foto.xml -->
+    <string name="imagen_foto">Foto de mascota</string>
+    <string name="raits_foto">5 🦴</string>
+
+    <!-- Nuevos para item_mascota.xml -->
+    <string name="imagen_mascota">Imagen de mascota</string>
+    <string name="nombre_mascota">Catty</string>
+    <string name="raits_mascota">5 🦴</string>
+
+    <!-- Nuevo para ProfileFragment.kt -->
+    <string name="nombre_perfil">Ronny</string>
+
+    <!-- Nuevos para HomeFragment y Supabase -->
+    <string name="titulo_ultimas_mascotas">Últimas mascotas calificadas</string>
+    <string name="mensaje_error_carga">No se pudieron cargar las mascotas. Intenta de nuevo.</string>
+    <string name="mensaje_sin_mascotas">Aún no has calificado mascotas.</string>
+    <string name="mensaje_insertado_ok">Mascota guardada correctamente.</string>
+    <string name="mensaje_insertado_error">Error al guardar la mascota.</string>
+    <string name="mensaje_autenticacion_requerida">Debes iniciar sesión para guardar mascotas.</string>
+
+    <string name="raits_mascota_placeholder">%1$d 🦴</string>
+
+
+
+
+</resources>

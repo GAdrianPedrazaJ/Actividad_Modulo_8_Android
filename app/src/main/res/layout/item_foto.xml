@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_pet_sample"
+        android:contentDescription="@string/imagen_foto" />
+
+    <TextView
+        android:id="@+id/tvRaits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/raits_foto"
+        android:background="#66000000"
+        android:textColor="#FFFFFF"
+        android:padding="6dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="6dp"/>
+</FrameLayout>
